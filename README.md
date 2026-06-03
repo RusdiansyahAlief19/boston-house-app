@@ -1,6 +1,6 @@
 # 🏠 Boston House Price Predictor
 
-Aplikasi prediksi harga rumah berbasis **Machine Learning** menggunakan Boston Housing Dataset. Dibangun dengan Python + Tkinter sebagai bagian dari proyek mata kuliah Kecerdasan Buatan.
+Aplikasi prediksi harga rumah berbasis **Machine Learning** menggunakan Boston Housing Dataset. Dibangun dengan Python + Tkinter sebagai bagian dari proyek mata kuliah Kecerdasan Artifisial Lanjut.
 
 **Tim DAPUR MBG — Kelompok MBG.CO**
 
