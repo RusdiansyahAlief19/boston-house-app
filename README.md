@@ -74,7 +74,7 @@ cd boston-house-app
 pip install -r requirements.txt
 ```
 
-### 3. Jalankan Aplikasi GUI
+### 3. Jalankan Aplikasi
 
 ```bash
 'Boston House Predict App.exe'
