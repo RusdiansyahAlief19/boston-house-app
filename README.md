@@ -40,18 +40,19 @@ Penilaian harga properti secara tradisional bergantung pada inspeksi manual oleh
 boston-house-app/
 │
 ├── data/
-│   └── housing.csv           # Dataset Boston Housing (490 baris, 4 fitur)
+│   └── housing.csv
 │
 ├── model/
-│   ├── train.py              # Script pelatihan model & ekspor .pkl
-│   └── boston_model.pkl      # Model terlatih (dibuat setelah menjalankan train.py)
+│   ├── model.json
+│   ├── model.py
+│   └── scaler.json
+|
+├── Boston House Predict App.exe
 │
-├── gui/
-│   └── app.py                # Aplikasi GUI Tkinter
+├── main.py
+├── predictor.py
 │
-├── assets/                   # Ikon dan aset visual aplikasi
-│
-├── requirements.txt          # Daftar dependensi Python
+├── requirements.txt
 │
 └── README.md
 ```
@@ -73,18 +74,10 @@ cd boston-house-app
 pip install -r requirements.txt
 ```
 
-### 3. Latih Model (wajib dilakukan sekali sebelum menjalankan GUI)
+### 3. Jalankan Aplikasi GUI
 
 ```bash
-python model/train.py
-```
-
-Script ini akan membaca `data/housing.csv`, melakukan preprocessing, melatih model, lalu menyimpan `boston_model.pkl` ke folder `model/`.
-
-### 4. Jalankan Aplikasi GUI
-
-```bash
-python gui/app.py
+'Boston House Predict App.exe'
 ```
 
 ---
@@ -146,7 +139,6 @@ Dipilih karena: interpretabilitas koefisien tinggi, kompleksitas sesuai jumlah f
 - **scikit-learn** — model regresi dan preprocessing
 - **matplotlib / seaborn** — visualisasi data
 - **tkinter** — GUI desktop
-- **joblib** — serialisasi model
 
 ---
 
